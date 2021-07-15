@@ -882,7 +882,7 @@ margin-right: 7px;
 }
 
 .modal-form-checkbox:checked + .modal-form-checkbox-label::before{
-background-image: url(../images/sprite.svg#icon-phone-black);
+background-image: url(.,/images/sprite.svg#icon-icon-check);
 }
 
 .modal-form-checkbox-label{
