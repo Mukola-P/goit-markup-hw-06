@@ -893,14 +893,19 @@ border-color: var(--secondary-color);
 display: block;
 content: "";
 width: 16px;
-height: 15px;
+height: 16px;
 border: 1px solid #212121;
+border-radius: 3px ;
 cursor: pointer;
 margin-right: 7px;
+background-position: 70% 60%;
 }
 
+
 .modal-form-checkbox:checked + .modal-form-checkbox-label::before{
-background-image: url(../images/sprite.svg#icon-icon-check);
+background-image: url(../images/icon.check.svg);
+background-repeat: no-repeat;
+border: 1px solid var(--secondary-color);
 }
 
 .modal-form-checkbox-label{
